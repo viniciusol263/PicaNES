@@ -1,7 +1,7 @@
-#include <iostream>
+#include "PicaNESMain/PicaNESMain.h"
 
 int main()
 {
-    std::cout << "PicaNES Hello World" << std::endl;
+    PicaNES::PicaNESMain picaNES;
     return 0;
 }
